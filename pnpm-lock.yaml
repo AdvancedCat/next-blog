@@ -1,18 +1,24 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@prisma/client': ^4.11.0
   eslint: 8.36.0
   eslint-config-next: 13.2.4
   next: 13.2.4
+  prisma: ^4.11.0
   react: 18.2.0
   react-dom: 18.2.0
 
 dependencies:
+  '@prisma/client': registry.npmjs.org/@prisma/client/4.11.0_prisma@4.11.0
   eslint: registry.npmjs.org/eslint/8.36.0
   eslint-config-next: registry.npmjs.org/eslint-config-next/13.2.4_eslint@8.36.0
   next: registry.npmjs.org/next/13.2.4_biqbaboplfbrettd7655fr4n2y
   react: registry.npmjs.org/react/18.2.0
   react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+
+devDependencies:
+  prisma: registry.npmjs.org/prisma/4.11.0
 
 packages:
 
@@ -294,6 +300,35 @@ packages:
       tiny-glob: registry.npmjs.org/tiny-glob/0.2.9
       tslib: registry.npmjs.org/tslib/2.5.0
     dev: false
+
+  registry.npmjs.org/@prisma/client/4.11.0_prisma@4.11.0:
+    resolution: {integrity: sha512-0INHYkQIqgAjrt7NzhYpeDQi8x3Nvylc2uDngKyFDDj1tTRQ4uV1HnVmd1sQEraeVAN63SOK0dgCKQHlvjL0KA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/client/-/client-4.11.0.tgz}
+    id: registry.npmjs.org/@prisma/client/4.11.0
+    name: '@prisma/client'
+    version: 4.11.0
+    engines: {node: '>=14.17'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': registry.npmjs.org/@prisma/engines-version/4.11.0-57.8fde8fef4033376662cad983758335009d522acb
+      prisma: registry.npmjs.org/prisma/4.11.0
+    dev: false
+
+  registry.npmjs.org/@prisma/engines-version/4.11.0-57.8fde8fef4033376662cad983758335009d522acb:
+    resolution: {integrity: sha512-3Vd8Qq06d5xD8Ch5WauWcUUrsVPdMC6Ge8ILji8RFfyhUpqon6qSyGM0apvr1O8n8qH8cKkEFqRPsYjuz5r83g==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines-version/-/engines-version-4.11.0-57.8fde8fef4033376662cad983758335009d522acb.tgz}
+    name: '@prisma/engines-version'
+    version: 4.11.0-57.8fde8fef4033376662cad983758335009d522acb
+    dev: false
+
+  registry.npmjs.org/@prisma/engines/4.11.0:
+    resolution: {integrity: sha512-0AEBi2HXGV02cf6ASsBPhfsVIbVSDC9nbQed4iiY5eHttW9ZtMxHThuKZE1pnESbr8HRdgmFSa/Kn4OSNYuibg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@prisma/engines/-/engines-4.11.0.tgz}
+    name: '@prisma/engines'
+    version: 4.11.0
+    requiresBuild: true
 
   registry.npmjs.org/@rushstack/eslint-patch/1.2.0:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz}
@@ -2176,6 +2211,16 @@ packages:
     version: 1.2.1
     engines: {node: '>= 0.8.0'}
     dev: false
+
+  registry.npmjs.org/prisma/4.11.0:
+    resolution: {integrity: sha512-4zZmBXssPUEiX+GeL0MUq/Yyie4ltiKmGu7jCJFnYMamNrrulTBc+D+QwAQSJ01tyzeGHlD13kOnqPwRipnlNw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/prisma/-/prisma-4.11.0.tgz}
+    name: prisma
+    version: 4.11.0
+    engines: {node: '>=14.17'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': registry.npmjs.org/@prisma/engines/4.11.0
 
   registry.npmjs.org/prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz}
