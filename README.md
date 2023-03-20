@@ -36,3 +36,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Prisma
+
+```bash
+$ npx prisma db push  # 生成 prisma client
+$ npx prisma db seed  # 为数据库填充数据
+
+$ npx prisma migrate dev --name init  # 生成数据库迁移脚本，命名为 init
+```
